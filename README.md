@@ -1,5 +1,8 @@
 # Config
 
+## zsh
+Derived from the robbyrussell theme for personal preference
+
 ## Hyper
 preference
 
