@@ -1,6 +1,8 @@
 # Config
 
 ## zsh
+### 2023/07/05
+zshscript.sh uploaded
 Derived from the robbyrussell theme for personal preference
 
 ## Hyper
