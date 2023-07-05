@@ -19,12 +19,12 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 # Set ZSH as your default shell
 chsh -s $(which zsh)
 
-# Fetch the custom theme from GitHub. Replace 'yourusername' and 'yourrepo' with your GitHub username and repository
-# Also replace 'yourtheme.zsh-theme' with the correct filename of your ZSH theme.
+# Fetch the custom theme from GitHub. `/lavienrozi` and `Config/main/zsh/asuka.zsh-theme 
+# and write the raw into the asuka.zsh-theme
 wget https://raw.githubusercontent.com/lavienrozi/Config/main/zsh/asuka.zsh-theme -O $HOME/.oh-my-zsh/themes/asuka.zsh-theme
 
 # Change the theme in the .zshrc file
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="asuka"/g' $HOME/.zshrc
 
-# Source the .zshrc file to apply changes
+# Source the .zshrc file to apply changes, don't forget to restart the shell
 source $HOME/.zshrc
