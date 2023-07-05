@@ -19,7 +19,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 # Set ZSH as your default shell
 chsh -s $(which zsh)
 
-# Fetch the custom theme from GitHub. `/lavienrozi` and `Config/main/zsh/asuka.zsh-theme 
+# Fetch the custom theme from GitHub. `/lavienrozi` and `Config/main/zsh/asuka.zsh-theme`
 # and write the raw into the asuka.zsh-theme
 wget https://raw.githubusercontent.com/lavienrozi/Config/main/zsh/asuka.zsh-theme -O $HOME/.oh-my-zsh/themes/asuka.zsh-theme
 
